@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+		<title>My Main Page</title>
+	</head>	
+	<body>
+		<form method="get" action="bouncer.php">
+			<table>
+			<tr>
+				<td>
+				<label for='name'>First Name:</label>
+				<input type="text" name="firstname" value="enter name here">
+				</td>
+					<tr>
+						<td>
+						<label for='spam'>Please spam me:</label>
+						<input type='checkbox' name='spam' id='spam'  />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for='gender'>male:</label>
+						<input type='radio' name='gender' id='male' value='m'  />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for='gender'>female:</label>
+						<input type='radio' name='gender' id='female' value='f' checked="checked" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for='pwd'>Password:</label>
+						<input type='password' name='pwd' id='pwd'  />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type='submit' value='Send' />
+						<input type='reset' value='Reset' />
+						</td>
+					</tr>
+					
+					<tr>	
+						<td>
+						<label for='formnum'>Hidden:</label>
+						<input type="hidden" name="formnum" id='formnum' value='form1'>
+						</td>
+						<td>
+						<label for='name'>Age:</label>
+						<input type="number" name="age" id='age' min='0'>
+						</td>
+					</tr>
+			</tr>
+			</table>
+		<p>Text here</p>
+		</form>
+		
+	</body>
+</html>
